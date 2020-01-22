@@ -1,44 +1,9 @@
 {
-  "_args": [
-    [
-      "polymerfire3@3.0.2",
-      "C:\\Users\\KraftZ\\repos\\pwa3"
-    ]
-  ],
-  "_from": "polymerfire3",
-  "_id": "polymerfire3@3.0.4",
-  "_inBundle": false,
-  "_integrity": "sha512-Xe1GBqDhCAr2vOa4Vn4sIg2Cx5iuNvY5ryPLGLGeAJiXmZEMLGAfNirn6BjTcv9NNw8L0vrZAHVgqdAJj4Q2TQ==",
-  "_location": "/polymerfire3",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "polymerfire3",
-    "name": "polymerfire3",
-    "escapedName": "polymerfire3",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/polymerfire3/-/polymerfire3-3.0.4.tgz",
-  "_shasum": "4c25dee2300fd3e7cddac9d922f99f8ca68e5021",
-  "_spec": "polymerfire3",
-  "_where": "C:\\Users\\KraftZ\\repos\\paragonih",
-  "author": {
-    "name": "Firebase"
-  },
-  "bundleDependencies": false,
   "dependencies": {
     "@polymer/app-storage": "^3.0.0-pre.21",
     "@polymer/polymer": "^3.0.2",
     "firebase": "^5.0.0"
   },
-  "deprecated": false,
   "description": "Polymer Web Components for Firebase",
   "devDependencies": {
     "@polymer/iron-component-page": "^3.0.0-pre.21",
