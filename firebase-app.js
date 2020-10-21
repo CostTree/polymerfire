@@ -18,6 +18,7 @@ import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
 import firebase from '@firebase/app';
 import '@firebase/app';
 import '@firebase/database';
+import '@firebase/firestore';
 import '@firebase/auth';
 import '@firebase/storage';
 import '@firebase/messaging';
