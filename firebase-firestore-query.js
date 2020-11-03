@@ -376,7 +376,7 @@ class FirebaseFirestoreQuery extends FirebaseFirestoreCollectionMixin(PolymerEle
     }
 
     __onSnapshotUpdate(snapshot) {
-        snapshot.docChanges.forEach(function (docChange) {
+        snapshot.docChanges().forEach(function (docChange) {
             switch (docChange.type) {
                 case 'added':
                     this.__addDocument(docChange);
