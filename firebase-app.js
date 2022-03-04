@@ -23,7 +23,7 @@ import '@firebase/auth';
 import '@firebase/storage';
 import '@firebase/messaging';
 import '@firebase/functions';
-import '@firebase/analytics';
+// import '@firebase/analytics';
 
 /**
  * The firebase-app element is used for initializing and configuring your
