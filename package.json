@@ -32,11 +32,10 @@
   "author": {
     "name": "Firebase"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@polymer/app-storage": "^3.0.0-pre.21",
     "@polymer/polymer": "^3.0.2",
-    "firebase": "^7.0.0"
+    "firebase": "^10.12.2"
   },
   "deprecated": false,
   "description": "Polymer Web Components for Firebase",
@@ -44,8 +43,20 @@
     "@polymer/iron-component-page": "^3.0.0-pre.21",
     "@polymer/paper-progress": "^3.0.0-pre.21",
     "@polymer/paper-toast": "^3.0.0-pre.21",
-    "@webcomponents/webcomponentsjs": "^2.0.3",
+    "@webcomponents/webcomponentsjs": "^2.8.0",
     "wct-browser-legacy": "^1.0.1"
+  },
+  "overrides": {
+    "wct-browser-legacy": {
+      "mocha": "^10.4.0",
+      "lodash": "^4.17.21"
+    },
+    "stacky": {
+      "lodash": "^4.17.21"
+    },
+    "@polymer/marked-element": {
+      "marked": "13.0.0"
+    }
   },
   "homepage": "https://github.com/firebase/polymerfire",
   "keywords": [
