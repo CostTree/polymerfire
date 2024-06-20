@@ -1,1 +1,1 @@
-import '@firebase/compat/firestore';
+import '@firebase/firestore-compat';
