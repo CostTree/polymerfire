@@ -15,14 +15,14 @@ https://github.com/firebase/polymerfire/blob/master/LICENSE
  // Polymer imports
 import '@polymer/polymer/polymer-legacy.js';
 import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
-import firebase from '@firebase/compat/app';
-import '@firebase/compat/app';
-import '@firebase/compat/database';
-import '@firebase/compat/firestore';
-import '@firebase/compat/auth';
-import '@firebase/compat/storage';
-import '@firebase/compat/messaging';
-import '@firebase/compat/functions';
+import firebase from '@firebase/app-compat';
+import '@firebase/app-compat';
+import '@firebase/database-compat';
+import '@firebase/firestore-compat';
+import '@firebase/auth-compat';
+import '@firebase/storage-compat';
+import '@firebase/messaging-compat';
+import '@firebase/functions-compat';
 // import '@firebase/analytics';
 
 /**
