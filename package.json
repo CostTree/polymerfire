@@ -56,6 +56,24 @@
     },
     "@polymer/marked-element": {
       "marked": "13.0.0"
+    },
+    "@firebase/auth": {
+      "undici": "6.21.2"
+    },
+    "@firebase/storage": {
+      "undici": "6.21.2"
+    },
+    "@firebase/functions": {
+      "undici": "6.21.2"
+    },
+    "@firebase/firestore": {
+      "undici": "6.21.2"
+    },
+    "@firebase/firestore-compat": {
+      "undici": "6.21.2"
+    },
+    "@firebase/auth-compat": {
+      "undici": "6.21.2"
     }
   },
   "homepage": "https://github.com/firebase/polymerfire",
