@@ -47,34 +47,10 @@
     "wct-browser-legacy": "^1.0.1"
   },
   "overrides": {
-    "wct-browser-legacy": {
-      "mocha": "^10.4.0",
-      "lodash": "^4.17.21"
-    },
-    "stacky": {
-      "lodash": "^4.17.21"
-    },
-    "@polymer/marked-element": {
-      "marked": "13.0.0"
-    },
-    "@firebase/auth": {
-      "undici": "6.21.2"
-    },
-    "@firebase/storage": {
-      "undici": "6.21.2"
-    },
-    "@firebase/functions": {
-      "undici": "6.21.2"
-    },
-    "@firebase/firestore": {
-      "undici": "6.21.2"
-    },
-    "@firebase/firestore-compat": {
-      "undici": "6.21.2"
-    },
-    "@firebase/auth-compat": {
-      "undici": "6.21.2"
-    }
+    "lodash": "^4.17.21",
+    "mocha": "^10.4.0",
+    "marked": "13.0.0",
+    "undici": "6.21.2"
   },
   "homepage": "https://github.com/firebase/polymerfire",
   "keywords": [
